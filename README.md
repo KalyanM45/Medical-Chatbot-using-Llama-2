@@ -1,5 +1,6 @@
 ## About The Project
 
+This project leverages natural language processing and information retrieval techniques to create an interactive system for answering user queries based on a collection of PDF documents. The process begins with loading and segmenting PDFs into smaller text chunks. These chunks are then embedded using a pre-trained Hugging Face model. The embeddings are indexed using Pinecone, a vector search engine, facilitating efficient similarity searches. User queries are processed using a retrieval question-answering (QA) system, which combines the Pinecone index, a language model loaded from a file, and a defined prompt template. The project aims to provide concise and accurate responses to user queries, fostering a seamless interaction between the user and the information stored in the PDF documents.
 
 ## Built With
 
